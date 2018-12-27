@@ -1,5 +1,5 @@
 {
-  "name": "FriendFinder",
+  "name": "friendfinder",
   "version": "1.0.0",
   "description": "Find your match.",
   "main": "server.js",
@@ -17,7 +17,7 @@
     "url": "git+https://github.com/bdavis127/FriendFinder.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Brett Davis",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bdavis127/FriendFinder/issues"

@@ -4,13 +4,13 @@ var path = require ('path')
 //Creating variable using express library
 var app = express()
 
-var PORT = 8080;
+var PORT = process.env.PORT || 8080;
 
-//testing route
-// app.get("/login", function (req, res) {
-//     console.log(req);
-//     res.send("Hello")
-// })
+// testing route
+app.get("/login", function (req, res) {
+    console.log(req);
+    res.send("Hello")
+})
 
 //requiring html routes
 require("./app/routing/apiRoutes")(app, path)
