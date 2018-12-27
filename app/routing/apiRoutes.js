@@ -9,7 +9,8 @@ module.exports = function (app) {
   //POST Route
   app.post('/api/friends', function (req, res) {
     //Grabs new friend scores to compare with friends in friendList array
-    var newFriendScores = req.body.scores;
+    var newFriendScores = req.body['scores[]'];
+    console.log(req.body['scores[]']);
     var scoresArray = [];
     var friendCount = 0;
     var bestMatch = 0;

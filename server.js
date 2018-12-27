@@ -1,8 +1,12 @@
 //Requiring express library
 var express = require('express')
 var path = require ('path')
+var bodyParser = require ('body-parser') 
 //Creating variable using express library
 var app = express()
+
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
 
 var PORT = process.env.PORT || 8080;
 
