@@ -19,7 +19,7 @@ var friendList = [
 
     {
         name: 'Famous Amos',
-        profilePic: 'https://placeimg.com/640/480/people',
+        profilePic: 'https://www.pexels.com/photo/adult-beard-boy-casual-220453/',
         scores: [
           "1",
           "2",
