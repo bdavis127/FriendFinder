@@ -11,6 +11,8 @@ module.exports = function (app) {
     //Grabs new friend scores to compare with friends in friendList array
     var newFriendScores = req.body['scores[]'];
     console.log(req.body['scores[]']);
+    //Adds new friend to friend list
+    friendList.push(req.body);
     var scoresArray = [];
     var friendCount = 0;
     var bestMatch = 0;
