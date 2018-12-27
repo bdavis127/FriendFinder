@@ -1,9 +1,7 @@
 # Friend-Finder
 
 A compatibility-based app that will compare users answers to determine their best friend match. 
-()
  
-
 # Technologies Used:
 * JavaScript
 * HTML
@@ -16,3 +14,5 @@ A compatibility-based app that will compare users answers to determine their bes
 
 # Live Link
 Click the link below to see who your best friend will be. 
+
+https://gentle-coast-17806.herokuapp.com/
