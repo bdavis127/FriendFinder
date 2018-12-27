@@ -1,6 +1,7 @@
 # Friend-Finder
 
 A compatibility-based app that will compare users answers to determine their best friend match. 
+![image](https://user-images.githubusercontent.com/41134425/50469404-dcb03280-0971-11e9-8fec-63a7847e9998.png)
  
 # Technologies Used:
 * JavaScript
